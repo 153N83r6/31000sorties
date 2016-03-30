@@ -1,0 +1,152 @@
+body
+{
+background-color:#F3F3F3;
+padding-top:70px;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+color: #48D2D5;  /*Sets the text hover color on navbar*/
+}
+
+
+  .navbar-default {
+	min-height: 70px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    background-color: white;
+    border-style: solid;
+    border-bottom-color: #EBEBEB;
+	
+}
+
+  .dropdown-menu > li > a:hover,
+   .dropdown-menu > li > a:focus {
+    color: #262626;
+   text-decoration: none;
+  background-color: #66CCFF;  /*change color of links in drop down here*/
+   }
+
+ .nav > li > a:hover,
+ .nav > li > a:focus {
+    text-decoration: none;
+    background-color: silver; /*Change rollover cell color here*/
+  }
+
+
+.navbar-default .navbar-nav > li > a {
+   color: #888; 
+   font-family: "Lucida Console", Monaco, monospace;
+   font-size:18px;
+}
+
+#home-form-container
+{
+    background-image: url("toulouse.jpg");
+    height: 327px;
+    background-size: cover;
+}
+
+#query-home
+{
+	width:100%
+}
+
+#home-form
+{
+background-color: rgba(0,0,0,0.4);
+padding: 10px;
+}
+
+#prochains-evenements
+{
+	overflow:hidden;
+}
+
+.thumbnail
+{
+	height:320px;
+	overflow:hidden;
+	position:relative;
+}
+
+.custom-caption
+{
+	padding-left: 10px;
+    width: 100%;
+    height: 130px;
+    bottom: 0px;
+    left: 0px;
+    color: #dea138;
+    background: white;
+    position: absolute;
+    text-align: left;
+	background: rgba(255,255,255,0.9);
+}
+
+#titre-accueil
+{
+
+    color: #fff;
+    font-size: 2.5em;
+    margin-top: 0;
+    font-family: "Ubuntu",Tahoma,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 40px;
+	margin-bottom:1em;
+	margin-top:1em;
+}
+
+p
+{
+	text-align: left;
+    font-size: 17px;
+    letter-spacing: 0.7px;
+    line-height: 30px;
+	
+}
+
+.texte-accueil
+{
+	text-align: center;
+}
+
+
+
+.gif_loading
+{
+background-position:center;
+margin-left:auto;
+margin-right:auto;
+color:white;
+font-weight:bold;
+text-align:center;
+margin-top: 60px;
+} 
+
+.btn-primary {
+  color: #fff;
+  background-color: #F44336;
+  border-color: #F32C1E;
+  border-radius: 0px;
+}
+.btn-primary:focus,
+.btn-primary.focus {
+  color: #fff;
+  background-color: #D43F3A;
+  border-color: #D43F3A;
+}
+.btn-primary:hover {
+  color: #fff;
+  background-color: #D43F3A;
+  border-color: #D43F3A;
+}
+
+.form-control {
+  border-radius: 0px;
+}
+
+label
+{
+  color:grey;
+}

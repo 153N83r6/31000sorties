@@ -1,0 +1,46 @@
+<!doctype html>
+<html ng-app="App">
+<head>
+		<title>Bienvenue sur mon CV int&eacute;ractif</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<base href="/31000sorties/" />
+		<link href="libraries/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="main.css" rel="stylesheet">
+		
+</head>
+<body>
+<div class="navbar navbar-default navbar-fixed-top" ng-init="isCollapsed=true" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" ng-click="isCollapsed = !isCollapsed">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+		  <a class="pull-left" href="{{url_site}}"><img src="logo.PNG"/></a>
+        </div>
+        <div  class="navbar-right collapse navbar-collapse" uib-collapse="isCollapsed">
+          <ul class="nav navbar-nav">
+			 <li><a href="evenements">Voir toutes les sorties</a></li>
+			 <li><a href="contact">Contact</a></li>
+          </ul>
+		  <!--<ul class="nav navbar-nav pull-right">
+            <li><a href="#"><span class="glyphicon glyphicon-user"></span>&nbsp;&nbsp;cyril.giraudo@gmail.com</a></li>
+            <li class="divider-vertical"></li>
+          </ul>-->
+        </div><!--/.nav-collapse -->
+     </div>
+</div>
+<div>
+<div ng-view></div>
+</div>
+<script src="libraries/angular.min.js"></script>
+<script src="libraries/angular-route.js"></script>
+<script src="libraries/ui-bootstrap.min.js"></script>
+<script src="app.js"></script>
+<script src="controllers.js"></script>
+<script src="services/serviceAjax.js"></script>
+</body>
+</html>

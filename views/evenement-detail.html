@@ -1,0 +1,17 @@
+<div>
+<div class="detail-gauche">
+<h3>{{evenement_detail.nom}}</h3>
+<h4>Quand ?</h4>
+<!-- <p><i class="fa fa-clock-o"></i> {%=afficher_dates(o[0].date_debut, o[0].date_fin) %}</p> -->
+<h4>Où ?</h4>
+<p><i class="fa fa-map-marker"></i>{{evenement_detail.adresse}} {{evenement_detail.code_postal}} {{evenement_detail.ville}}</p>
+<!-- <p>{% if(o[0].description.length > 0){ %} <span>{%=o[0].description%}</span> {% } %}</p>
+<p>{% if(o[0].lien_externe.length > 0){ %} <a href="{%=o[0].lien_externe %}" target="_blank">Voir plus de détails</a> {% } %}</p> -->
+</div>
+<div class="detail-droite">
+<h4>Plan</h4>
+<div style="width:100%; height:300px;"  id="carte">
+</div>
+</br>
+</div>
+</div>
